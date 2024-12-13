@@ -1,0 +1,18 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@std/cli": "jsr:@std/cli@^1.0.8",
+    "@std/path": "jsr:@std/path@^1.0.8",
+    "mime": "npm:mime@^4.0.4",
+    "puppeteer": "npm:puppeteer@^23.10.4"
+  },
+  "nodeModulesDir": "auto",
+  "compilerOptions": {
+    "lib": [
+      "deno.window",
+      "dom"
+    ]
+  }
+}
